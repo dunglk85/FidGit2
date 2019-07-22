@@ -11,8 +11,8 @@
             }
         });
 
-    boxController.$inject = ['$mdDialog','$element'];
-    function boxController($mdDialog,$element) {
+    boxController.$inject = ['$mdDialog'];
+    function boxController($mdDialog) {
         var ctrl = this;
         ctrl.$onChanges = (changes) => {
             ctrl.content = changes.content.currentValue;
