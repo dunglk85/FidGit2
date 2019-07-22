@@ -1,0 +1,30 @@
+{
+  "name": "fidgit",
+  "version": "1.0.0",
+  "description": "FidGit assignment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunglk85/fidgit.git"
+  },
+  "author": "Le Kim Dzung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dunglk85/fidgit/issues"
+  },
+  "homepage": "https://github.com/dunglk85/fidgit#readme",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-animate": "^1.7.8",
+    "angular-aria": "^1.7.8",
+    "angular-material": "^1.1.19",
+    "angular-messages": "^1.7.8"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}

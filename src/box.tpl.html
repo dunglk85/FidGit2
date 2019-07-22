@@ -1,0 +1,13 @@
+<md-card ng-click="myStyle={'background-color':'#5fcce0', color:'ffffff'}" ng-style="myStyle">
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">{{$ctrl.header}}</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+        {{$ctrl.content[0] | limitTo: 100}}
+    </md-card-content>
+    <md-card-actions layout="row" layout-align="end center">
+        <md-button ng-click="$ctrl.showDialog($event)">Learn More</md-button>
+    </md-card-actions>
+</md-card>
