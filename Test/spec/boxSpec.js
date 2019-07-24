@@ -2,9 +2,8 @@ describe('box component', function() {
   var $componentController;
 
   beforeEach(module('app'));
-  beforeEach(inject(function(_$componentController_,_$compile_) {
+  beforeEach(inject(function(_$componentController_) {
     $componentController = _$componentController_;
-    $compile = _$compile_;
   }));
 
   it('should get content and header', function() {
