@@ -42,6 +42,5 @@
             ctrl.header = header;
             ctrl.content = content;
         }
-
     }
 }());
