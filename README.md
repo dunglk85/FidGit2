@@ -1,6 +1,12 @@
 # FidGit2
 
-Run command "npm install" to install all dependencies \n \
-Do command "npm run dev" for run app \
+Run app:
+Execute command "npm start" \
 
-Open following link for test: http://localhost:3000/Test/SpecRunner.html
+Run unit test: 
+- Step 1: Let run app (execute command "npm start" in a command prompt)
+- Step 2: Execute command "npm run unittest" in another command prompt
+
+Run e2e test: 
+- Step 1: Let run app (execute command "npm start" in a command prompt)
+- Step 2: Execute command "npm run e2etest" in another command prompt

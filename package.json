@@ -4,8 +4,10 @@
   "description": "FidGit assignment",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "prestart": "npm install",
+    "start": "lite-server",
+    "unittest": "start http://localhost:3000/SpecRunner.html",
+    "e2etest": "protractor spec/conf.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,6 @@
     "angular-aria": "^1.7.8",
     "angular-material": "^1.1.19",
     "angular-messages": "^1.7.8",
-    "angular-mock": "^1.0.0",
     "angular-mocks": "^1.7.8"
   },
   "devDependencies": {
