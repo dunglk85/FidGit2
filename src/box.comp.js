@@ -33,14 +33,14 @@
                 }
             })
         };
-
-        function DialogController($mdDialog, header, content) {
-            var ctrl = this;
-            ctrl.closeDialog = () => {
-                $mdDialog.hide();
-            }
-            ctrl.header = header;
-            ctrl.content = content;
+    }
+    
+    function DialogController($mdDialog, header, content) {
+        var ctrl = this;
+        ctrl.closeDialog = () => {
+            $mdDialog.hide();
         }
+        ctrl.header = header;
+        ctrl.content = content;
     }
 }());
